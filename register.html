@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link href="signn.jpg" rel="icon">
+    <link rel ="stylesheet" href="sig.css">
+</head>
+<body>
+    <div class="login-container">
+        <a href="index.html"><button onclick="goBack()">Go Back</button></a>
+
+    <h3>REGISTRATION</h3>
+    <p>Please complete the form to register.</p>
+    <form action="your-login-action.php" method="POST">
+
+        <div class="input-wrapper">
+        <div class="form-group">
+                            <label for="name">Last Name:</label>
+                            <input type="text" id="name" placeholder="Enter Last Name" required>
+                            </div>
+            
+            <div class="form-group">
+                <label for="name">First Name:</label>
+                <input type="text" id="name" placeholder="Enter First Name" required>
+                </div>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <div class="form-group">
+                            <label for="name">Student Id:</label>
+                            <input type="tel" id="number" placeholder="Enter Student Number" required>
+                            </div>
+
+                            <div class="custom-select">
+                                <label for="gender">Departments:</label>
+                                <select>
+                                  <option value="0" >Select Departments:</option>
+                                  <option value="1">Departments Of Computer Science</option>
+                                  <option value="2">Departments of Statistical Sciences</option>
+                                  <option value="3">Departments of Infomation Sciences</option>
+                                  <option value="3">Departments of Food Technology</option>
+                                  <option value="3">Departments of Mathematical Sciences</option>
+                                </select>
+                              </div>
+
+                            </div>
+                            
+            <div class="input-wrapper">
+                <div class="form-group">
+                    <label for="birthday">DOB:</label>
+                    <input type="date" id="date" required>
+                    </div>
+
+        <div class="form-group">
+            <div class="custom-select">
+            <label for="gender">Faculty:</label>
+            <select>
+              <option value="0" >Select Faculty:</option>
+              <option value="1">Faculty of applied sciences and technology.</option>
+            </select>
+          </div>
+                </div>
+                    </div>
+
+        <div class="input-wrapper">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Example@gmail.com" required>
+                </div>
+
+        <div class="form-group">
+            <label for="password">Tel. Number:</label>
+            <input type="tel" id="phonenumber" placeholder="Enter your phone number" required>
+            </div>
+                </div>
+
+        <div class ="Remember-forgot">
+            <p> <input type="checkbox" required>I have read all the terms and condition.  </p>
+        </div>
+
+    <div class="form-group">
+    <input type="submit" value="Register">
+    <p>Wants to make payment?<a href="payment.html">Pay here</a></p>
+</div>
+</form>
+    </div>
+</body>
+</html>
